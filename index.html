@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a href="" class="navbar-brand fw-bold-4">
+                <i class="bi bi-android"></i>
+                Androstor
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToko" aria-controls="navbarToko" aria-expended="false" aria-label="Toggle navigation">
+            <i class="navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToko">
+            <ul class="navbar-nav mb-2 mx-auto mb-lg-0 gap-3">
+                <li><a href="nav-item"><a href="" class="nav-link"></a>Home</a></li>
+                <li><a href="nav-item"><a href="" class="nav-link"></a>Produk</a></li>
+                <li><a href="nav-item"><a href="" class="nav-link"></a>Kategori</a></li>
+                <li><a href="nav-item"><a href="" class="nav-link"></a>About</a></li>
+            </ul>
+            <div class="d-flex gap-1" >
+            <button class="btn btn-primary" type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#drawerTop"
+                aria-controls="drawerTop">
+    <i class="bi bi-cart-fill"></i>
+        </button>
+            <button class="btn btn-light">
+                <i class="bi bi-search"></i>
+            </button>
+            <button class="btn btn-primary">
+                <i class="bi bi-person"></i>
+                Login
+            </button>
+            <button class="btn btn-outline-primary">Register</button>
+        </div>
+        </div>
+       </div>
+    </nav>
+
+     <div id="carouselExampleIndicators" class="carousel slide"
+    data-bs-interval="3000" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0U1dkGAfL3uVIvfJnC-GLgwP1XH4jF-Lrg1jc-iI4hA&s=10" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBrP7EbPNf-NYtGCdWTzxs0cYtcvRF-cv6tDatYFGPvA&s=10" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://image.idntimes.com/post/20251018/mi9aqof3_57998f08-0b69-4518-abe3-4021db17d096.png" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section id="product" class="py-5">
+    <div class="container">
+        <div class="row align-items-center g-4">
+
+            <div class="col-12 col-lg-6 mt-4">
+                <span class="badge text-bg-primary mb-3">
+                    Selamat datang di toko androstore
+                </span>
+
+                <h1 class="hero-title fw-bold">
+                    Belanja mudah
+                    <span class="text-primary">harga murah</span>
+                </h1>
+
+                <p class="text-secondary lead">
+                    Temukan berbagai pilihan smartphone terbaik
+                    hanya di toko androstore
+                </p>
+
+                <a href="#produk" class="btn btn-primary btn-lg mb-2">
+                    <i class="bi bi-bag-fill"></i>
+                    Belanja sekarang
+                </a>
+
+                <a href="#produk" class="btn btn-outline-dark btn-lg mb-2">
+                    Lihat produk
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="col-12 col-lg-6 mt-4">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3jQMnvMvY3IfmXjDnlQFGTz8b31fbSxdxqWgz2RGNA&s=10"
+                    alt="Toko Samsung Androstore"
+                    class="hero-image img-fluid rounded-4 shadow"
+                >
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="product" class="py-5">
+   <div class="container">
+    <div class="row">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-md-4 mt-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0i4otNkjEeiznOwXCEuhZ46sI8kmLBR5-uDk_h9sZiQ&s=10"
+                     class="card-img-top" alt="Samsung">
+
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy A15</h5>
+                    <p class="card-text">
+                        Pilihan terbaik untuk pelajar dan penggunaan sehari-hari dengan baterai tahan lama dan layar AMOLED yang jernih.
+                    </p>
+
+                    <button class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hpsamsung1">
+                            Lihat Ditail!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-4 mt-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjzvaHUfaxdYWH0iZTuKCKnLRH2QyiME0-4h9SMEvvA&s"
+                     class="card-img-top" alt="Samsung">
+
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy S24Ultra</h5>
+                    <p class="card-text">
+                       Flagship premium dengan kamera 200MP, performa super cepat, dan fitur AI canggih untuk produktivitas.
+                    </p>
+
+                    <button class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hpsamsung2">
+                            Lihat Ditail!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-4 mt-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyfuVFRFW6jCxk_PZXbEG-GtcXmPvBea7npccqhWaUQ&s=10"
+                     class="card-img-top" alt="Samsung">
+
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy S25Ultra</h5>
+                    <p class="card-text">
+                        Smartphone flagship terbaru Samsung dengan teknologi AI generasi baru dan kamera profesional.
+                    </p>
+
+                    <button class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hpsamsung3">
+                            Lihat Ditail!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- card 4 -->
+         <div class="col-12 col-md-4 mt-4">
+            <div class="card">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-O73WKv6PFm4w8Vd8xSsevdyvRTeX35LCao84DWlulA&s=10"
+                     class="card-img-top" alt="Samsung">
+
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy A55</h5>
+                    <p class="card-text">
+                        Performa kencang, desain premium, dan kamera berkualitas tinggi yang cocok untuk aktivitas harian.
+                    </p>
+
+                    <button class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hpsamsung4">
+                            Lihat Ditail!
+                    </button>
+                </div>
+            </div>
+         </div>
+         <!-- card 5 -->
+          <div class="col-12 col-md-4 mt-4">
+            <div class="card">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu_YuhzsnS82wqIg0mEMPT8NfOVuclkx0k-jAsHBZkg&s=10"
+                     class="card-img-top" alt="Samsung">
+
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy Z Flip7</h5>
+                    <p class="card-text">
+                        HP lipat modern dengan desain stylish, layar fleksibel, dan performa kelas flagship.
+                    </p>
+
+                    <button class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hpsamsung5">
+                            Lihat Ditail!
+                    </button>
+                </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+           <div class="col-12 col-md-4 mt-4">
+            <div class="card">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhh5Pwe-yjtYAPgBPoEznKenBiAY9IjK1ufv5b2gylQ&s=10"
+                     class="card-img-top" alt="Samsung">
+
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy Z Flip4</h5>
+                    <p class="card-text">
+                        Smartphone lipat premium yang ringkas, elegan, dan nyaman digunakan untuk gaya hidup aktif.
+                    </p>
+
+                    <button class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hpsamsung6">
+                        Lihat Ditail!
+                    </button>
+                </div>
+            </div>
+           </div>
+    </div>
+</div>
+</section>
+<!-- modal a15 -->
+<div id="hpsamsung1" aria-hiden="true" tabindex="-1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Samsung A15</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0i4otNkjEeiznOwXCEuhZ46sI8kmLBR5-uDk_h9sZiQ&s=10" alt="" class="img-fluid">
+                <h4>samsung A15</h4>
+                <p>Layar: 6.5 inci Super AMOLED 90Hz
+                    Chipset: MediaTek Helio G99
+                    RAM: 8GB
+                    Memori: 256GB
+                    Kamera: 50MP + 5MP + 2MP
+                    Baterai: 5000mAh, Fast Charging 25W</p>
+                <span>Rp3.299.000</span>
+            </div>
+             <div class="modal-footer">
+                <button class="btn btn-danger"
+                data-bs-dismiss="modal">close</button>
+                <button class="btn btn-success"><i class="bi bi-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal s24u -->
+ <div id="hpsamsung2" aria-hiden="true" tabindex="-1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Samsung S24Ultra</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjzvaHUfaxdYWH0iZTuKCKnLRH2QyiME0-4h9SMEvvA&s" alt="" class="img-fluid">
+                <h4>samsung S24Ultra</h4>
+                <p>Layar: 6.8 inci Dynamic AMOLED 2X 120Hz
+                    Chipset: Snapdragon 8 Gen 3 for Galaxy
+                    RAM: 12GB
+                    Memori: 256GB / 512GB
+                    Kamera: 200MP + 50MP + 12MP + 10MP
+                    Baterai: 5000mAh, Fast Charging 45W</p>
+                <span>Rp21.999.000</span>
+            </div>
+             <div class="modal-footer">
+                <button class="btn btn-danger"
+                data-bs-dismiss="modal">close</button>
+                <button class="btn btn-success"><i class="bi bi-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal s25ultra -->
+ <div id="hpsamsung3" aria-hiden="true" tabindex="-1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Samsung S25ultra</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyfuVFRFW6jCxk_PZXbEG-GtcXmPvBea7npccqhWaUQ&s=10" alt="" class="img-fluid">
+                <h4>Samsung S25Ultra</h4>
+                <p>Layar: 6.9 inci Dynamic AMOLED 2X 120Hz
+                    Chipset: Snapdragon 8 Elite for Galaxy
+                    RAM: 12GB
+                    Memori: 256GB / 512GB
+                    Kamera: 200MP + 50MP + 50MP + 10MP
+                    Baterai: 5000mAh, Fast Charging 45W</p>
+                <span>Rp22.999.000</span>
+            </div>
+             <div class="modal-footer">
+                <button class="btn btn-danger"
+                data-bs-dismiss="modal">close</button>
+                <button class="btn btn-success"><i class="bi bi-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal a55 -->
+ <div id="hpsamsung4" aria-hiden="true" tabindex="-1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Samsung A55</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-O73WKv6PFm4w8Vd8xSsevdyvRTeX35LCao84DWlulA&s=10" alt="" class="img-fluid">
+                <h4>samsung A55</h4>
+                <p>Layar: 6.6 inci Super AMOLED 120Hz
+                    Chipset: Exynos 1480
+                    RAM: 8GB
+                    Memori: 256GB
+                    Kamera: 50MP + 12MP + 5MP
+                    Baterai: 5000mAh, Fast Charging 25W</p>
+                <span>Rp5.999.000</span>
+            </div>
+             <div class="modal-footer">
+                <button class="btn btn-danger"
+                data-bs-dismiss="modal">close</button>
+                <button class="btn btn-success"><i class="bi bi-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal zflip -->
+ <div id="hpsamsung5" aria-hiden="true" tabindex="-1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Samsung Galaxy Zflip7</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu_YuhzsnS82wqIg0mEMPT8NfOVuclkx0k-jAsHBZkg&s=10" alt="" class="img-fluid">
+                <h4>samsung Galaxy Zflip7</h4>
+                <p>Layar: 6.9 inci Dynamic AMOLED 2X 120Hz
+                    Chipset: Exynos 2500
+                    RAM: 12GB
+                    Memori: 256GB / 512GB
+                    Kamera: 50MP + 12MP
+                    Baterai: 4300mAh, Fast Charging 25W</p>
+                <span>Rp17.999.000</span>
+            </div>
+             <div class="modal-footer">
+                <button class="btn btn-danger"
+                data-bs-dismiss="modal">close</button>
+                <button class="btn btn-success"><i class="bi bi-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal Zflip4 -->
+ <div id="hpsamsung6" aria-hiden="true" tabindex="-1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Samsung Galaxy Zflip4</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhh5Pwe-yjtYAPgBPoEznKenBiAY9IjK1ufv5b2gylQ&s=10" alt="" class="img-fluid">
+                <h4>samsung Galaxy Zflip4</h4>
+                <p>Layar: 6.7 inci Dynamic AMOLED 2X 120Hz
+                    Chipset: Snapdragon 8+ Gen 1
+                    RAM: 8GB
+                    Memori: 128GB / 256GB
+                    Kamera: 12MP + 12MP
+                    Baterai: 3700mAh, Fast Charging 25W</p>
+                <span>Rp8.999.000</span>
+            </div>
+             <div class="modal-footer">
+                <button class="btn btn-danger"
+                data-bs-dismiss="modal">close</button>
+                <button class="btn btn-success"><i class="bi bi-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- faq -->
+ <section id="faq" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <span class="badge text-bg-primary">FAQ</span>
+                <h2>Frequenly Asked Question</h2>
+                <p class="text-secondary">Temukan Jawaban dari Pertanyaan Seputar toko Androstor</p>
+            </div>
+            <div class="accordion" id="accordiondigimap">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqdua">Apakah HP Samsung yang dijual original?</button>
+                    </h2>
+                    <div class="accodion-collapse collapse show" id="faqdua" data-bs-parent="#accordiondigimap">
+                        <div class="accordion-body">
+                            Ya, kami menyediakan berbagai pilihan HP Samsung original. Informasi produk dan garansi dapat dilihat pada detail masing-masing produk.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordiondigimap">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqtiga">Apakah HP Samsung mendapatkan garansi resmi?</button>
+                    </h2>
+                    <div class="accodion-collapse collapse show" id="faqtiga" data-bs-parent="#accordiondigimap">
+                        <div class="accordion-body">
+                            Ya, garansi mengikuti ketentuan yang berlaku untuk setiap produk. Silakan periksa informasi garansi sebelum melakukan pembelian.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordiondigimap">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqsatu">Apakah tersedia layanan pengiriman ke seluruh Indonesia?</button>
+                    </h2>
+                    <div class="accodion-collapse collapse show" id="faqsatu" data-bs-parent="#accordiondigimap">
+                        <div class="accordion-body">
+                            Kami menyediakan layanan pengiriman untuk membantu pelanggan mendapatkan produk pesanannya. Ketersediaan pengiriman dapat disesuaikan dengan lokasi tujuan.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+<!-- offcanvas -->
+<div class="offcanvas offcanvas-end"
+     tabindex="-1"
+     id="drawerTop"
+     aria-labelledby="drawerTopLabel">
+
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="drawerTopLabel">
+            Keranjang Belanja
+        </h5>
+
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas">
+        </button>
+    </div>
+
+    <div class="offcanvas-body">
+
+        <!-- Samsung A15 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0i4otNkjEeiznOwXCEuhZ46sI8kmLBR5-uDk_h9sZiQ&s=10"
+                 width="70" alt="Samsung Galaxy A15">
+
+            <div class="flex-grow-1">
+                <h6>Samsung Galaxy A15</h6>
+                <p class="mb-2">Rp3.299.000</p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.nextElementSibling.stepDown()">−</button>
+
+                    <input type="number" class="form-control text-center"
+                           value="1" min="0" style="width:65px;">
+
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Samsung S24 Ultra -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjzvaHUfaxdYWH0iZTuKCKnLRH2QyiME0-4h9SMEvvA&s"
+                 width="70" alt="Samsung S24 Ultra">
+
+            <div class="flex-grow-1">
+                <h6>Samsung Galaxy S24 Ultra</h6>
+                <p class="mb-2">Rp21.999.000</p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.nextElementSibling.stepDown()">−</button>
+
+                    <input type="number" class="form-control text-center"
+                           value="1" min="0" style="width:65px;">
+
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Samsung S25 Ultra -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyfuVFRFW6jCxk_PZXbEG-GtcXmPvBea7npccqhWaUQ&s=10"
+                 width="70" alt="Samsung S25 Ultra">
+
+            <div class="flex-grow-1">
+                <h6>Samsung Galaxy S25 Ultra</h6>
+                <p class="mb-2">Rp22.999.000</p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.nextElementSibling.stepDown()">−</button>
+
+                    <input type="number" class="form-control text-center"
+                           value="1" min="0" style="width:65px;">
+
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Samsung A55 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-O73WKv6PFm4w8Vd8xSsevdyvRTeX35LCao84DWlulA&s=10"
+                 width="70" alt="Samsung Galaxy A55">
+
+            <div class="flex-grow-1">
+                <h6>Samsung Galaxy A55</h6>
+                <p class="mb-2">Rp5.999.000</p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.nextElementSibling.stepDown()">−</button>
+
+                    <input type="number" class="form-control text-center"
+                           value="1" min="0" style="width:65px;">
+
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Samsung Z Flip7 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu_YuhzsnS82wqIg0mEMPT8NfOVuclkx0k-jAsHBZkg&s=10"
+                 width="70" alt="Samsung Galaxy Z Flip7">
+
+            <div class="flex-grow-1">
+                <h6>Samsung Galaxy Z Flip7</h6>
+                <p class="mb-2">Rp17.999.000</p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.nextElementSibling.stepDown()">−</button>
+
+                    <input type="number" class="form-control text-center"
+                           value="1" min="0" style="width:65px;">
+
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Samsung Z Flip4 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhh5Pwe-yjtYAPgBPoEznKenBiAY9IjK1ufv5b2gylQ&s=10"
+                 width="70" alt="Samsung Galaxy Z Flip4">
+
+            <div class="flex-grow-1">
+                <h6>Samsung Galaxy Z Flip4</h6>
+                <p class="mb-2">Rp8.999.000</p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.nextElementSibling.stepDown()">−</button>
+
+                    <input type="number" class="form-control text-center"
+                           value="1" min="0" style="width:65px;">
+
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+    <!-- footer -->
+     <footer>
+        <div>
+            <div class="row">
+                <div class="col-12 bg-dark text-white text-center py-3 mt-5">
+                    <h1>Androstore</h1>
+                    <p>Temukan HP Favorit Lu Di Sini</p>
+                    <h5>@Androstore All Right Reserve</h5>
+
+                </div>
+            </div>
+        </div>
+     </footer>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
